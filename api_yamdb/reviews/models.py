@@ -1,7 +1,5 @@
 from django.db import models
-
 from users.models import User
-
 
 CHAR_LENGTH = 10
 
@@ -61,7 +59,7 @@ class Title(models.Model):
         return self.name
 
 
-class Genre_Title(models.Model):
+class GenreTitle(models.Model):
     """Класс для связи произведений и жанров."""
 
     title = models.ForeignKey(

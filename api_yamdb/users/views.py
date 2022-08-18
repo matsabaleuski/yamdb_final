@@ -1,3 +1,6 @@
+from api import permissions
+from api.serializers import (AdminSerializer, StandartUserSerializer,
+                             TokenSerializer)
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
@@ -7,11 +10,6 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import AccessToken
-
-from api.serializers import (
-    AdminSerializer, StandartUserSerializer, TokenSerializer)
-from api import permissions
-
 from users.models import User
 
 

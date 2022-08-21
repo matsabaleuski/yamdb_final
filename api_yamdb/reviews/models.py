@@ -49,7 +49,7 @@ class Title(models.Model):
         verbose_name='категория',
         related_name='titles',
     )
-    genre = models.ManyToManyField(Genre, through='Genre_Title')
+    genre = models.ManyToManyField(Genre, through='GenreTitle')
 
     class Meta:
         ordering = ('id',)

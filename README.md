@@ -1,6 +1,8 @@
 # yamdb_final
 ![example workflow](https://github.com/matsabaleuski/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+Пример развернутого проекта можно посмотреть по ссылке: http://51.250.18.3:8000/admin/
+
 Авторы:
 - matsabaleuski
 - Innis8

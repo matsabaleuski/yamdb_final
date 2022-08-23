@@ -1,16 +1,27 @@
 # yamdb_final
 ![example workflow](https://github.com/matsabaleuski/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-# Пример развернутого проекта
-
-Адрес: http://51.250.18.3/admin/
-Имя пользователя: admin
-Пароль: admin
-
 Авторы:
 - matsabaleuski
 - Innis8
 - Serge561
+
+
+# Пример развернутого проекта
+
+Админ Клиент:
+Адрес - http://51.250.18.3/admin/
+Имя пользователя - admin
+Пароль - admin
+
+Redoc:
+Адрес - http://51.250.18.3/redoc/
+
+Сервисы api:
+Адреса - http://51.250.18.3/api/v1/<название_ресурса>/
+Например, http://51.250.18.3/api/v1/titles/ для работы с сервисом titles
+Примечание: без указания конкретного сервиса http://51.250.18.3/api/v1/ открываться не будет.
+
 
 # Описание
 
